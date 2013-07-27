@@ -18,9 +18,6 @@ $(call inherit-product, device/samsung/n80xx-common/n80xx-common.mk)
 
 LOCAL_PATH := device/samsung/n8013
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-
-
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
